@@ -1,0 +1,11 @@
+These are the instructions to run the program
+
+1)		Load 'trainedNet' workspace (You only need to do this once)
+
+2.1)	Choose a sample image from folders boards_test or boards_test2
+2.2)	Write the path to the image in the first line of the "run.mlx" file
+2.3)	If you chose a file from boards_test, set variable "toRotate" to 0, if you chose an image from boards_test2, set it to 1.
+		This is because MATLAB does not recognize image rotation information in the metadata. Phones use this data when you take a
+		picture with different phone orientation to keep the image consistent with the phone frame of reference.
+
+3)		Start the script 'run.mlx'. All intermediate results will be shown in the live script.
